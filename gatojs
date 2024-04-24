@@ -1,0 +1,13 @@
+var D = 0;
+
+D = parseFloat(entradaNode.question("Informe o valor da diária: "));
+
+Promo = (D * 22)/100;
+sempromo = (42 * 0.4)*30 * D
+compromo = (42 * 0.7)*30 * Promo;
+SC = sem promo - com promo;
+
+console.log(´O valor da diária no período da promoção é {Promo}´);
+console.log(´O valor médio arrecadado sem a promoção durante um mês é {sempromo}´);
+console.log(´O valor médio arrecadado com a promoção durante um mês é {compromo}´);
+console.log(´O lucro ou prejuízo é {SC}´);
